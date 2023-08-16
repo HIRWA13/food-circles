@@ -1,0 +1,16 @@
+{
+  "name": "restoview-website",
+  "version": "1.0.0",
+  "description": "This is a restaurant review and menu app that allows users to view restaurants and their menus. Users can also add, edit, and delete restaurants and menus.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./Assets/Styles/input.css -o ./Assets/Styles/output.css",
+    "watch": "tailwindcss -i ./Assets/Styles/input.css -o ./Assets/Styles/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
