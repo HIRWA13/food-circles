@@ -17,7 +17,7 @@ Every I will be adding a simple feature until I have a fully functional app.
 
 👤 **Author**
 
-### 2. Junior Hirwa
+### Junior Hirwa
 - GitHub: [Junior Hirwa](https://github.com/HIRWA13)
 - Twitter: [@itshirwa](https://twitter.com/itshirwa)
 - LinkedIn: [Junior Hirwa](https://linkedin.com/in/hirwajr)
