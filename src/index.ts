@@ -9,6 +9,10 @@
 // }
 
 import { Restaurants } from './interfaces';
+import { Hero } from './classes';
+import { generateHero } from './utils'
+
+export const heroContainer = document.getElementById('hero') as HTMLElement;
 
 const restaurants: Restaurants[] = [
     {
@@ -40,3 +44,7 @@ const restaurants: Restaurants[] = [
         contact: [1234567890, 'iamhir@gmail.com']
     },
 ]
+
+const hero= new Hero('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.cnbcfm.com%2Fapi%2Fv1%2Fimage%2F105989359-1561566296439gettyimages-492868234.jpg%3Fv%3D1561566362&f=1&nofb=1&ipt=fe45830be36e050e7b25ec0464a0dd9602055d1bb5ff94d0ff168f364d218e5d&ipo=images', '"Explore Culinary Delights: Indulge in Exquisite Flavors  Where Gastronomy Meets Artistry"');
+
+generateHero(hero)

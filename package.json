@@ -4,6 +4,9 @@
   "description": "This is a restaurant review and menu app that allows users to view restaurants and their menus. Users can also add, edit, and delete restaurants and menus.",
   "main": "index.js",
   "scripts": {
+    "serv": "webpack-dev-server",
+    "buildTS": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tailwindcss -i ./Assets/Styles/input.css -o ./Assets/Styles/output.css",
     "watch": "tailwindcss -i ./Assets/Styles/input.css -o ./Assets/Styles/output.css --watch"
   },
@@ -11,6 +14,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "tailwindcss": "^3.3.3"
+    "tailwindcss": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "wepack": "^0.0.1"
   }
 }
