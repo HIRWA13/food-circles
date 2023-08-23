@@ -1,12 +1,3 @@
-// export interface Restaurant {
-//     image: string;
-//     name: string;
-//     address: string;
-//     rating: number;
-//     menu: string[];
-//     reviews: string[];
-//     contact: [number, string];
-// }
 
 import { Restaurants } from './interfaces';
 import { Hero } from './classes';
