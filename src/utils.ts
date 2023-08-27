@@ -65,9 +65,9 @@ export const genRestaurant = (restaurants: Restaurants[]) => {
     bookBtn.textContent = 'Book a Table';
     viewMenu.textContent = 'View Menu';
     restaurantDescription.appendChild(nameRating);
-    restaurantDescription.appendChild(restaurantLocation);
     restaurantDescription.appendChild(mail);
     restaurantDescription.appendChild(phone);
+    restaurantDescription.appendChild(restaurantLocation);
     restaurantDescription.appendChild(bookBtn);
     restaurantDescription.appendChild(viewMenu);
     restaurantDescription.setAttribute('class', 'restaurant-description');
