@@ -1,4 +1,4 @@
-# FoodCirles App: A Restaurant Review and Menu App
+# FoodCircles App: A Restaurant Review and Menu App
 
 ## About
 This is a restaurant review and menu app that allows users to view restaurants and their menus. Users can also add, edit, and delete restaurants and menus.
