@@ -1,0 +1,51 @@
+.book-btn {
+    background: #6F1919;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+  }
+  .view-menu {
+    margin-left: 10px;
+    background: #D09902;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+  }
+  .rest-container {
+    display: grid;
+    grid-column: 1fr;
+    grid-template-rows: 1fr 200px;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .star-rating {
+    border: 2px solid #6F1919;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    padding: 0 10px;
+    border-radius: 10px;
+  }
+  .name-rating {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .restaurant-description {
+    padding: 5px 10px;
+  }
+  .restaurant-description .rest-name {
+    font-size: 1.3rem;
+    padding: 5px;
+  }
+  .restaurant-description p {
+    padding: 5px;
+  }
+
+  .restaurant-description button {
+    margin-top: 10px;
+  }
